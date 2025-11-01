@@ -27,3 +27,10 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Composable
+fun ScreenSetup(modifier: Modifier = Modifier) {
+    MainScreen(modifier)
+}
+@Composable
+fun MainScreen(modifier: Modifier = Modifier) {
+}
